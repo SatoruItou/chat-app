@@ -1,7 +1,6 @@
 .wrapper {
-  display:flex;
+  display: flex;
 }
-
 .side-bar {
   background-color: #253141;
   width: 300px;
@@ -23,14 +22,13 @@
   text-decoration: none;
 }
 
-.create-room a{
+.create-room a {
   font-size: 10px;
-  color: deepskyblue;
-  padding: 14px;
   border: 1px solid lightblue;
+  padding: 14px;
+  color: deepskyblue;
   text-decoration: none;
 }
-
 .rooms {
   background-color: #2F3E51;
   height: calc(100vh - 100px);
@@ -42,26 +40,26 @@
   padding: 20px 0 40px;
 }
 
-.room-name a{
-  color: white;
+.room-name a {
   text-decoration: none;
+  color: white;
 }
 
 .chat {
-  background-color: #ffffff;
-  width: calc(100vw - 300px);  
+  background-color: #FFFFFF;
+  width: calc(100vw - 300px);
 }
 
-.chat-header{
+.chat-header {
   height: 100px;
   padding: 0 40px;
   display: flex;
   justify-content: space-between;
 }
 
-.header-title{
+.header-title {
+  color: #333;
   font-size: 24px;
-  color:  #333;
   margin-top: 36px;
 }
 
@@ -69,7 +67,7 @@
   margin-top: 40px;
 }
 
-.header-button a{
+.header-button a {
   text-decoration: none;
   border: 1px solid darkred;
   color: darkred;
@@ -87,29 +85,31 @@
   margin: 10px 0 0 0;
 }
 
-.upper-message {
+.upper-message{
   display: flex;
 }
 
-.message-user{
-  color:#434A54;
+.message-user {
+  color: #434a54;
   font-size: 16px;
 }
 
 .message-date {
-  font-size: 12px;
   color: #999;
+  font-size: 12px;
+  padding-left: 10px;
 }
 
 .lower-message {
-  padding: 10px;
+  margin-top: 10px;
 }
 
 .message-content {
+  color: #434a54;
   font-size: 14px;
-  color: #434A54;
   margin-bottom: 40px;
 }
+
 .form {
   background-color: #DDDDDD;
   height: 90px;
@@ -118,27 +118,28 @@
 }
 
 .form-input {
-background-color: white;
-display: flex;
-width: 100%;
+  background-color: white;
+  display: flex;
+  width: 100%;
 }
 
 .form-message {
   border: none;
   height: 50px;
   width: 100%;
-  color:white;
   padding-left: 10px;
 }
 
 .form-submit {
   background-color: #38AEF0;
   border: none;
-  font-size:16px;
-  color:white;
+  color: white;
+  font-size: 16px;
+  height: 50px;
   margin-left: 15px;
   padding: 0 20px;
 }
+
 .form-image {
   font-size: 12px;
   background-color: lightblue;
